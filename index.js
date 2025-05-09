@@ -94,6 +94,8 @@ app.post("/login", async (request, response) => {
   }
 });
 
+// teste
+// temfaisfsoadfmos
 
 app.listen(3333, () => console.log("Server running in http://localhost:3333"));
 
@@ -101,3 +103,4 @@ function validarID(id){
   var checkForHexRegExp = new RegExp("^[0-9a-fA-F]{24}$");
   return checkForHexRegExp.test(id);
 }
+
